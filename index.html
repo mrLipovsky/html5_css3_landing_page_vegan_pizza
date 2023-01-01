@@ -7,13 +7,16 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
-<div class="header">
-    <img class="logo" src="pictures/logo.svg" alt="logo">
+<div class="section-navigation">
+    <div class="section-navigation_logo">
+    <h1>vegan pizza</h1>
+    </div>
     <nav>
         <ul>
             <li><a href="default.asp">Home</a></li>
@@ -27,46 +30,50 @@
         <label for="results"></label>
         <input type="text" id="results" value="results" class="search_input" placeholder="Search... "> 
         <p class="search_input_p">|</p>
-        <button class="search_input_b"> <img src="pictures/add-to-cart.svg" alt="cart"> </button>
+
+        <button class="search_input_button"> 
+            <i class="fa fa-search" style="font-size:24px"></i>
+        </button>
+
         </form>
     </div>
-</form>
 </div>
 
-<section>
-    <div class="section_one">
+
+<section class="main-section">
+    <div class="main-section_left">
         <h1>We provide <br> delivery within <br> 30 <span> minutes.</span> </h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <div class="section_buttons">
+        <p>To make your next pizza night even more special, consider offering free drinks with your order. This could be a great way to attract customers and encourage them to try your pizzas.</p>
+        <div class="main-section_left_buttons">
             <button><a href="shop.html" class="button"><h2>Order Now</h2></a></button>
             <img src="pictures/play.svg" alt="play">
             <p>Order Process</p>
         </div>
-        <div class="section_rating">
+        <div class="main-section_left_rating">
             <img src="pictures/people.svg" alt="girl">
-            <div class="section_rating_text">
+            <div class="main-section_left_raiting_text">
             <p> Our Happy Customers</p>
             <p>⭐ 4.9 | 15.2k reviews</p>
             </div>
         </div>
     </div>
 
-    <div class="section_two">
-        <div class="pizza"><img src="pictures/pizza.jpg" alt="pizza">
+    <div class="main-section_right">
+        <div class="pizza"><img src="pictures/pizza_margerita.png" alt="pizza">
             
-            <div class="cola">
-                <img src="pictures/cola.jpg" alt="cola">
+            <div class="main-section_right_cola">
+                <img src="pictures/coca_cola-removebg-preview.png" alt="cola">
                 <p>Cola ipsum</p>
                 <h3>Price $4</h3>
                 <button><a href="shop.html" class="button"><img src="pictures/add-to-cart.svg" alt="cart"></a></button> 
             </div>
 
-            <div class="delivery">
+            <div class="main-section_right_delivery">
                 <button><a href="shop.html" class="button"><img src="pictures/delivery.svg" alt="truck"></a></button>
                 <p>Delivery <br> in 30 min</p>
             </div>
 
-            <div class="rating">
+            <div class="main-section_right_rating">
                 <img src="pictures/tik.svg" alt="">
                 <div><h3>Karmen ⭐⭐⭐⭐<span>⭐</span></h3>
                 <p>lorem ipsum dolor.lorem ipsum dolor. lorem ipsum dolor. lorem ipsum dolor.</p></div>
@@ -77,9 +84,38 @@
 <hr>
 <footer>
     <div class="container_one">
-    <p>What we Serve</p>
-    <h2> Lorem Ipsum Lorem Ipsum Lorem Ipsum <br>
-         Lorem Ipsum Lorem Ipsum </h2>
+    <h1>What we Serve</h1>
+    <h3> 
+        Margherita pizza 
+    </h3>
+    <p>
+        with tomato sauce, sliced tomatoes, and fresh basil
+    </p>
+    <h3> 
+        Veggie pizza
+    </h3>
+    <p>
+        with a variety of vegetables such as bell peppers, onions, mushrooms, and olives
+    </p>
+    <h3> 
+        BBQ tempeh and pineapple pizza
+    </h3>
+    <p>
+        with BBQ sauce, tempeh, pineapple, and red onions
+    </p>
+    <h3> 
+        White pizza
+    </h3>
+    <p>
+         with garlic sauce, roasted vegetables, and vegan cheese
+    </p>
+    <h3> 
+        Vegan pepperoni and mushroom pizza
+    </h3>
+    <p>
+        with vegan pepperoni and sliced mushrooms
+    </p>
+    
     </div>
     <div class="container_two">
         <h2>ORDER</h2> 
@@ -98,7 +134,7 @@
                 <option value="pizza 1">pizza 1</option>
                 <option value="pizza 2">pizza 2</option>
                 <option value="pizza 3">pizza 3</option>
-                <option value="pizza 4">pizza 4</option>
+                <option value="pizza 4">Vegan pepperoni and mushroom pizza</option>
             </select>
             </div>
             <div>
