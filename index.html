@@ -45,9 +45,12 @@
         <h1>We provide <br> delivery within <br> 30 <span> minutes.</span> </h1>
         <p>To make your next pizza night even more special, consider offering free drinks with your order. This could be a great way to attract customers and encourage them to try your pizzas.</p>
         <div class="main-section_left_buttons">
-            <button><a href="shop.html" class="button"><h2>Order Now</h2></a></button>
-            <img src="pictures/play.svg" alt="play">
-            <p>Order Process</p>
+            <button><a href="shop.html" class="button">
+                <p>Order Now</p></a>
+            </button>
+            <button>
+                <p>Order Process</p>
+            </button>
         </div>
         <div class="main-section_left_rating">
             <img src="pictures/people.svg" alt="girl">
@@ -63,7 +66,7 @@
             
             <div class="main-section_right_cola">
                 <img src="pictures/coca_cola-removebg-preview.png" alt="cola">
-                <p>Cola ipsum</p>
+                <p>CocaCola</p>
                 <h3>Price $4</h3>
                 <button><a href="shop.html" class="button"><img src="pictures/add-to-cart.svg" alt="cart"></a></button> 
             </div>
@@ -74,76 +77,144 @@
             </div>
 
             <div class="main-section_right_rating">
-                <img src="pictures/tik.svg" alt="">
-                <div><h3>Karmen ⭐⭐⭐⭐<span>⭐</span></h3>
-                <p>lorem ipsum dolor.lorem ipsum dolor. lorem ipsum dolor. lorem ipsum dolor.</p></div>
+                <button><a href="shop.html" class="button"></a><img src="pictures/tik.svg" alt=""></a></button>
+                <div>
+                    <h3>Karmen ⭐⭐⭐⭐<span>⭐</span></h3>
+                    <p>Vegan pizza is the best.</p>
+                </div>
             </div>
         </div>
     </div>
 </section>
 <hr>
-<footer>
-    <div class="container_one">
+<section class="pizza-order-section">
+    <div class="pizza-order-section_container_left">
     <h1>What we Serve</h1>
-    <h3> 
-        Margherita pizza 
-    </h3>
-    <p>
-        with tomato sauce, sliced tomatoes, and fresh basil
-    </p>
-    <h3> 
-        Veggie pizza
-    </h3>
-    <p>
-        with a variety of vegetables such as bell peppers, onions, mushrooms, and olives
-    </p>
-    <h3> 
-        BBQ tempeh and pineapple pizza
-    </h3>
-    <p>
-        with BBQ sauce, tempeh, pineapple, and red onions
-    </p>
-    <h3> 
-        White pizza
-    </h3>
-    <p>
-         with garlic sauce, roasted vegetables, and vegan cheese
-    </p>
-    <h3> 
-        Vegan pepperoni and mushroom pizza
-    </h3>
-    <p>
-        with vegan pepperoni and sliced mushrooms
-    </p>
+    <div class="pizza-order-section_container_left_pizza">
+        <img src="./pictures/pizza_margerita.png" alt="pizza Margherita">
+        <div>    
+            <h3> 
+            Margherita pizza 
+            </h3>
+            <p>
+            with tomato sauce, sliced tomatoes, and fresh basil
+            </p>
+        </div>
+    </div>
+    <div class="pizza-order-section_container_left_pizza">
+        <img src="./pictures/pizza_veggie.png" alt="pizza Margherita">
+        <div>    
+            <h3> 
+                Veggie pizza
+            </h3>
+            <p>
+                with a variety of vegetables such as bell peppers, onions, mushrooms, and olives
+            </p>
+        </div>
+    </div>
+
+    <div class="pizza-order-section_container_left_pizza">
+        <img src="./pictures/pizza_veggie.png" alt="pizza Margherita">
+        <div>    
+            <h3> 
+                BBQ tempeh and pineapple pizza
+            </h3>
+            <p>
+                with BBQ sauce, tempeh, pineapple, and red onions
+            </p>
+        </div>
+    </div>
+   
+    <div class="pizza-order-section_container_left_pizza">
+        <img src="./pictures/pizza_veggie.png" alt="pizza Margherita">
+        <div>    
+            <h3> 
+                White pizza
+            </h3>
+            <p>
+                 with garlic sauce, roasted vegetables, and vegan cheese
+            </p>
+        </div>
+    </div>
+
+    <div class="pizza-order-section_container_left_pizza">
+        <img src="./pictures/pizza_veggie.png" alt="pizza Margherita">
+        <div>    
+            <h3> 
+                Vegan pepperoni and mushroom pizza
+            </h3>
+            <p>
+                with vegan pepperoni and sliced mushrooms
+            </p>
+        </div>
+    </div>
     
     </div>
-    <div class="container_two">
-        <h2>ORDER</h2> 
+    <div class="pizza-order-section_container_right">
+        <h1>ORDER</h1> 
         <form action="shop.html">
-            <div><label for="Meno">Meno:</label>
-            <input type="text" id="Meno" name="Meno" placeholder="hod to sem" required value="meno vole">
-            </div>
-            <div><label for="phone">Phone:</label>
-            <input type="tel" id="phone" name="phone">
-            </div>
-            <div><label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="email vole">
-            </div>
-            <div><label for="pizza">Choose a pizza:</label>
-            <select id="pizza" name="pizza">
-                <option value="pizza 1">pizza 1</option>
-                <option value="pizza 2">pizza 2</option>
-                <option value="pizza 3">pizza 3</option>
-                <option value="pizza 4">Vegan pepperoni and mushroom pizza</option>
-            </select>
+            <div>
+                <label for="Meno">Meno:</label>
+                <input type="text" id="Meno" name="Meno" placeholder="hod to sem" required value="meno vole">
             </div>
             <div>
-            <button><h2>Order Now</h2></button>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone">
+            </div>  
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="email vole">
+            </div>
+                <div>
+                    <label for="pizza">Choose a pizza:</label>
+                    <select id="pizza" name="pizza">
+                        <option value="pizza 1">MARGHERITA PIZZA</option>
+                        <option value="pizza 2">VEGGIE PIZZA</option>
+                        <option value="pizza 3">BBQ TEMPEH AND PINEAPPLE PIZZA                </option>
+                        <option value="pizza 4">WHITE PIZZA</option>
+                    </select>
+                </div>
+            <div>
+            <button>
+                <p>Order Now</p>
+            </button>
             </div>
         </form>
         </div>
 
-</footer>
+</section>
 
+
+<footer class="footer">
+    <a class="copyright">© 2022 Graphiq Studio.</a>
+
+    <ul class="social-icons">
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-behance"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-sketch"></i>
+          </a>
+        </li>
+      </ul>
+</footer>
 </body>
 </html>
