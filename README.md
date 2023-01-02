@@ -1,3 +1,3 @@
 ﻿# html5_css3_grid
 
-![image](https://user-images.githubusercontent.com/90620664/138884597-d00ce887-a9b9-4853-b47a-f8e75f3a945d.png)
+<img width="975" alt="Screenshot 2023-01-01 at 21 33 20" src="https://user-images.githubusercontent.com/90620664/210271789-9f983259-5de7-4ae2-ab4d-8fbbae9d0a2a.png">
